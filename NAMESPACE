@@ -1,0 +1,4 @@
+export(analyze_tweets)
+export(read_tweets)
+export(clean_tweets)
+importFrom(rlang,.data)

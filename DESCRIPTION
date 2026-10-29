@@ -1,0 +1,13 @@
+Package: airlineText
+Type: Package
+Title: Text Analysis of Airline Tweets
+Version: 0.1.0
+Authors@R: person("Package", "Author", role = c("aut", "cre"),
+    email = "author@example.com")
+Description: Clean airline tweets, count words and bigrams, create a
+    sparse bag-of-words matrix and compute per-document TF-IDF.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: dplyr, tidyr, stringr, readr, tidytext, Matrix, rlang
+NeedsCompilation: no
